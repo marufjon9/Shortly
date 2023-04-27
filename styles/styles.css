@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-display: swap;
   font-family: "Poppins";
@@ -288,14 +295,12 @@ body {
 .statistics__title {
   color: #34313d;
 }
-
-.statistics__content {
+.content{
   margin-top: 18px;
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 0.122727px;
-
   color: #9e9aa8;
 }
 .statistics__content-inner {
