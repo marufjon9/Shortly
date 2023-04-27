@@ -1,0 +1,45 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"),
+    url("../fonts/poppins-v20-latin-500.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
+    url("../fonts/poppins-v20-latin-700.woff") format("woff");
+}
+
+/* ====================  General Styles ==================== */
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.container {
+  width: 1140;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ====================  Header Styles ==================== */
