@@ -67,14 +67,16 @@
         <div class="container">
           <h2 class="visually-hidden">Hidden</h2>
           <div class="link-shorten__inner">
-            <form action="#" class="form">
+            <form action="https://echo.htmlacademy.ru/" class="form" method="post">
               <input
                 type="text"
                 class="form__input"
+                name="form_link"
                 aria-label="Please type your input here"
                 placeholder="Shorten a link here..."
+                autocomplete="off"
               />
-              <button class="button form__button">Shorten It!</button>
+              <button class="button form__button" type="submit">Shorten It!</button>
             </form>
           </div>
         </div>
